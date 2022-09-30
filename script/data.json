@@ -1,6 +1,6 @@
 let tasksJSON = `[
     {"task": "Task 1",
-    "description": "Description 1 - dawdopawj pwaojd po jwpo j poaj opj wk dnoid apiodiopinin",
+    "description": "Description",
     "priority": 0,
     "img": "pexels-photo.jpeg"
    }, {

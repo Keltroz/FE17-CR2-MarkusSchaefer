@@ -54,6 +54,12 @@
   background-color: rgb(255, 255, 255);
   width: 40px;
 }
+#btn_sort :hover {
+  box-shadow: 0 0 5px 1px;
+}
+#btn_sort :active {
+  box-shadow: 0 0 0 0;
+}
 
 .span_test {
   margin-left: 10%;
@@ -76,12 +82,12 @@
   height: 250px;
   margin: 5% 0;
 }
-.task_info .prio_lvl {
-  background-color: green;
-  padding: 1% 2%;
+.task_info .btn_prio {
+  padding: 0.5% 2%;
   border-radius: 0.4rem;
 }
-.task_info .btn_done, .task_info .btn_delete {
+.task_info .btn_done,
+.task_info .btn_delete {
   float: right;
 }
 .task_info .btn_delete {
