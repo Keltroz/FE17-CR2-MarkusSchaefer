@@ -4,37 +4,37 @@ let tasksJSON = `[
     "priority": 0,
     "img": "pexels-photo.jpeg"
    }, {
-    "task": "Javascript for Dummies2",
+    "task": "Task 2",
     "description": "Description",
     "priority": 0,
     "img": "pexels-photo.jpeg"
    }, {
-    "task": "Javascript for Dummies3",
+    "task": "Task 3",
     "description": "Description",
     "priority": 0,
     "img": "pexels-photo.jpeg"
    }, {
-    "task": "Javascript for Dummies4",
+    "task": "Task 4",
     "description": "Description",
     "priority": 0,
     "img": "pexels-photo.jpeg"
    }, {
-    "task": "Javascript for Dummies5",
+    "task": "Task 5",
     "description": "Description",
     "priority": 0,
     "img": "pexels-photo.jpeg"
    }, {
-    "task": "Javascript for Dummies4",
+    "task": "Task 6",
     "description": "Description",
     "priority": 0,
     "img": "pexels-photo.jpeg"
    }, {
-    "task": "Javascript for Dummies5",
+    "task": "Task 7",
     "description": "Description",
     "priority": 0,
     "img": "pexels-photo.jpeg"
    }, {
-    "task": "Javascript for Dummies5",
+    "task": "Task 8",
     "description": "Description",
     "priority": 0,
     "img": "pexels-photo.jpeg"

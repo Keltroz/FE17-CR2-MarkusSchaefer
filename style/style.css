@@ -1,11 +1,11 @@
 .navbar .myplanner {
   color: white;
-  font-size: 24px;
+  font-size: 30px;
   margin: 0 1%;
 }
 .navbar a {
   color: white;
-  font-size: 16px;
+  font-size: 24px;
 }
 .navbar a:visited {
   color: grey;
@@ -41,7 +41,7 @@
   padding: 1% 0;
   position: absolute;
   text-align: center;
-  margin-top: 1%;
+  margin-top: 4%;
   margin-left: 45%;
 }
 
@@ -59,10 +59,6 @@
 }
 #btn_sort :active {
   box-shadow: 0 0 0 0;
-}
-
-.span_test {
-  margin-left: 10%;
 }
 
 .task_info {
