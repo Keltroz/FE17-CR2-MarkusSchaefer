@@ -81,6 +81,7 @@
 .task_info .btn_prio {
   padding: 0.5% 2%;
   border-radius: 0.4rem;
+  background-color: green;
 }
 .task_info .btn_done,
 .task_info .btn_delete {
