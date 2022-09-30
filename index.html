@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Code Review 2</title>
-</head>
-<body>
-    
-</body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <div class="myplanner">MyPlanner</div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tasks</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#">Settings</a>
+              </li>
+            </ul>
+           <button>
+            <img src="./images/bell_symbol.png" />
+            </button>
+        </div>
+        </div>
+      </nav>
+      <div class="container_weekly_planner">
+        <div class="weekly_planner">
+            Weekly planner
+        </div>        
+      </div>
+    </header>
+    <main>
+        <div class="container">
+            <p style="text-align:left; font-size: 24px;">
+                <b>Weekly Tasks</b>
+                <span style="float:right; font-size: 16px;">
+                    Sort by priority: <span style="color: white;">.....</span>
+                    <button id="btn_sort"><img src="./images/sort.png" width="100%"></button>
+                </span>
+            </p>
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3" id="task_content"></div>
+          </div>
+    </main>
+    <footer>
+      <div class="newsletter bg-dark">
+        <a href="" alt="youtube"><img src="./images/youtube.png" /></a>
+        <a href="" alt="facebook"><img src="./images/facebook.png" /></a>
+        <a href="" alt="twitter"><img src="./images/twitter.png" /></a>
+        <a href="" alt="google"><img src="./images/google.png" /></a>
+        <a href="" alt="instagram"><img src="./images/instagram.png" /></a>
+        <a href="" alt="github"><img src="./images/github.png" /></a>
+        <p>
+          Sign up for our newsletter:
+          <input type="text" size="50"/>
+          <button type="submit" class="bg-dark">Subscribe</button>
+        </p>
+        <br />
+        <p>© 2020 Copyright</p>
+      </div>
+    </footer>
+    <script src="./script/data.json"></script>
+    <script src="./script/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

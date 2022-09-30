@@ -1,0 +1,42 @@
+let tasksJSON = `[
+    {"task": "Task 1",
+    "description": "Description 1 - dawdopawj pwaojd po jwpo j poaj opj wk dnoid apiodiopinin",
+    "priority": 0,
+    "img": "pexels-photo.jpeg"
+   }, {
+    "task": "Javascript for Dummies2",
+    "description": "Description",
+    "priority": 0,
+    "img": "pexels-photo.jpeg"
+   }, {
+    "task": "Javascript for Dummies3",
+    "description": "Description",
+    "priority": 0,
+    "img": "pexels-photo.jpeg"
+   }, {
+    "task": "Javascript for Dummies4",
+    "description": "Description",
+    "priority": 0,
+    "img": "pexels-photo.jpeg"
+   }, {
+    "task": "Javascript for Dummies5",
+    "description": "Description",
+    "priority": 0,
+    "img": "pexels-photo.jpeg"
+   }, {
+    "task": "Javascript for Dummies4",
+    "description": "Description",
+    "priority": 0,
+    "img": "pexels-photo.jpeg"
+   }, {
+    "task": "Javascript for Dummies5",
+    "description": "Description",
+    "priority": 0,
+    "img": "pexels-photo.jpeg"
+   }, {
+    "task": "Javascript for Dummies5",
+    "description": "Description",
+    "priority": 0,
+    "img": "pexels-photo.jpeg"
+   }
+]`;

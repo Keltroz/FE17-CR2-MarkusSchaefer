@@ -1,1 +1,101 @@
-/*# sourceMappingURL=style.css.map */
+.navbar .myplanner {
+  color: white;
+  font-size: 24px;
+  margin: 0 1%;
+}
+.navbar a {
+  color: white;
+  font-size: 16px;
+}
+.navbar a:visited {
+  color: grey;
+}
+.navbar a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.navbar img {
+  width: 100%;
+  margin: 0 1%;
+}
+.navbar button {
+  width: 2.8%;
+  background: none;
+  border: none;
+  margin-right: 1%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+.container_weekly_planner {
+  background-image: url("https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&w=1600");
+  background-size: 100% 100%;
+  height: 300px;
+  position: relative;
+  width: 100%;
+}
+.container_weekly_planner .weekly_planner {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  width: 10%;
+  padding: 1% 0;
+  position: absolute;
+  text-align: center;
+  margin-top: 1%;
+  margin-left: 45%;
+}
+
+.container {
+  margin: 5% auto;
+}
+
+#btn_sort {
+  border: none;
+  background-color: rgb(255, 255, 255);
+  width: 40px;
+}
+
+.span_test {
+  margin-left: 10%;
+}
+
+.task_info {
+  box-shadow: 0px 0px 10px 1px;
+  margin: 4% 0;
+  padding: 5%;
+}
+.task_info button {
+  color: white;
+  background-color: rgb(0, 225, 255);
+  border-radius: 0.3rem;
+  padding: 1% 5%;
+}
+.task_info .prio_lvl {
+  background-color: green;
+  padding: 1% 2%;
+  border-radius: 0.4rem;
+}
+.task_info .btn_done, .task_info .btn_delete {
+  float: right;
+}
+
+.newsletter {
+  color: white;
+  text-align: center;
+  padding: 1% 0;
+}
+.newsletter input {
+  margin: 0 1%;
+}
+.newsletter img {
+  width: 1.5%;
+  margin: 1% 0;
+  border: 1px solid white;
+}
+.newsletter button {
+  color: white;
+  border-radius: 5%;
+}
+.newsletter a {
+  margin: 0 0.2%;
+}/*# sourceMappingURL=style.css.map */
