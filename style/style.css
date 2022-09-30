@@ -70,6 +70,12 @@
   border-radius: 0.3rem;
   padding: 1% 5%;
 }
+.task_info img {
+  border: 1px solid rgb(228, 228, 228);
+  padding: 1%;
+  height: 250px;
+  margin: 5% 0;
+}
 .task_info .prio_lvl {
   background-color: green;
   padding: 1% 2%;
@@ -77,6 +83,10 @@
 }
 .task_info .btn_done, .task_info .btn_delete {
   float: right;
+}
+.task_info .btn_delete {
+  width: 100px;
+  padding: 1%;
 }
 
 .newsletter {

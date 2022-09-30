@@ -85,12 +85,12 @@
         padding: 1% 5%;
     }
 
-    // img {
-    //     border: 1px solid rgb(228, 228, 228);
-    //     padding: 1%;
-    //     height: 250px;
-    //     margin: 5% 0;
-    // }
+    img {
+        border: 1px solid rgb(228, 228, 228);
+        padding: 1%;
+        height: 250px;
+        margin: 5% 0;
+    }
 
     .prio_lvl {
         background-color: green;
@@ -101,7 +101,14 @@
     .btn_done, .btn_delete {
         float: right;
     }
+
+    .btn_delete {
+        width: 100px;
+        padding: 1%;
+    }
 }
+
+
 
 
 // ------- Settings for footer
