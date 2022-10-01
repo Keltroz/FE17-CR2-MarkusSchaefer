@@ -51,9 +51,15 @@ function addEvent() {
 
   for (let i = 0; i < btn_prios.length; i++) {
     btn_prios[i].addEventListener("click", function () {
-      if (tasks[i].priority >= 0) {tasks[i].btn_prio_color = "bg-success"};
-      if (tasks[i].priority >= 1) {tasks[i].btn_prio_color = "bg-warning"};
-      if (tasks[i].priority >= 3) {tasks[i].btn_prio_color = "bg-danger"};
+      if (tasks[i].priority >= 0) {
+        tasks[i].btn_prio_color = "bg-success";
+      }
+      if (tasks[i].priority >= 1) {
+        tasks[i].btn_prio_color = "bg-warning";
+      }
+      if (tasks[i].priority >= 3) {
+        tasks[i].btn_prio_color = "bg-danger";
+      }
       prio(i);
       document.getElementById("task_content").innerHTML = "";
       updateHTML();
