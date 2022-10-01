@@ -12,7 +12,7 @@ HTML
 CSS
 SCSS
 JavaScript
-
+Bootstrap
 
 
 Description
@@ -20,7 +20,7 @@ Description
 
 This site showcases a planner where the user can set a priority level for there weekly tasks and sort them from highest to
 lowest priority.
-The site is also working for other devices via media queries.
+The site works for all devices via bootstrap and media queries.
 
 
 
