@@ -37,12 +37,12 @@
 .container_weekly_planner .weekly_planner {
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
-  width: 10%;
+  width: 12%;
   padding: 0.5% 0;
   position: absolute;
   text-align: center;
   margin-top: 110px;
-  margin-left: 45%;
+  margin-left: 44%;
 }
 .container_weekly_planner img {
   width: 100%;
@@ -115,4 +115,96 @@
 }
 .newsletter a {
   margin: 0 0.2%;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar button {
+    width: 10%;
+    background: none;
+    border: none;
+    margin-right: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  }
+  .container_weekly_planner {
+    height: 150px;
+  }
+  .container_weekly_planner .weekly_planner {
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 35%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .navbar button {
+    width: 8%;
+    background: none;
+    border: none;
+    margin-right: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  }
+  .container_weekly_planner {
+    height: 150px;
+  }
+  .container_weekly_planner .weekly_planner {
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 35%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .navbar button {
+    width: 5%;
+    background: none;
+    border: none;
+    margin-right: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  }
+  .container_weekly_planner {
+    height: 200px;
+  }
+  .container_weekly_planner .weekly_planner {
+    width: 30%;
+    margin-top: 80px;
+    margin-left: 35%;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .navbar button {
+    width: 5%;
+    background: none;
+    border: none;
+    margin-right: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  }
+  .container_weekly_planner {
+    height: 300px;
+  }
+  .container_weekly_planner .weekly_planner {
+    width: 30%;
+    margin-top: 80px;
+    margin-left: 35%;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1408px) {
+  .navbar button {
+    width: 5%;
+    background: none;
+    border: none;
+    margin-right: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  }
+  .container_weekly_planner {
+    height: 300px;
+  }
+  .container_weekly_planner .weekly_planner {
+    width: 20%;
+    padding: 0.5% 0%;
+    margin-top: 130px;
+    margin-left: 42.5%;
+  }
 }/*# sourceMappingURL=style.css.map */
