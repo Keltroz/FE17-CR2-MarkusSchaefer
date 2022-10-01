@@ -1,50 +1,58 @@
 let tasksJSON = `[
-    {"task": "Task 1",
-    "description": "Description",
+    {"task": "Shopping",
+    "description": "Need to buy groceries",
     "priority": 0,
     "img": "pexels-photo.jpeg",
-    "btn_prio_color": "bg-success"
+    "btn_prio_color": "bg-success",
+    "deadline": "1/10/2022"
    }, {
-    "task": "Task 2",
-    "description": "Description",
+    "task": "Refuel and wash the car",
+    "description": "Need to refuel and wash my car",
     "priority": 0,
     "img": "pexels-photo.jpeg",
-    "btn_prio_color": "bg-success"
+    "btn_prio_color": "bg-success",
+    "deadline": "1/10/2022"
    }, {
-    "task": "Task 3",
-    "description": "Description",
+    "task": "Meet with a friend",
+    "description": "Meet with a friend at 19 o'clock in vienna",
     "priority": 0,
     "img": "pexels-photo.jpeg",
-    "btn_prio_color": "bg-success"
+    "btn_prio_color": "bg-success",
+    "deadline": "2/10/2022"
    }, {
-    "task": "Task 4",
-    "description": "Description",
+    "task": "Visit my family",
+    "description": "Maybe there is something new.",
     "priority": 0,
     "img": "pexels-photo.jpeg",
-    "btn_prio_color": "bg-success"
+    "btn_prio_color": "bg-success",
+    "deadline": "3/10/2022"
    }, {
-    "task": "Task 5",
-    "description": "Description",
+    "task": "Walk with the dog",
+    "description": "Going for a big walk.",
     "priority": 0,
     "img": "pexels-photo.jpeg",
-    "btn_prio_color": "bg-success"
+    "btn_prio_color": "bg-success",
+    "deadline": "1/10/2022"
    }, {
-    "task": "Task 6",
-    "description": "Description",
+    "task": "Dentist",
+    "description": "Appointment at 17:30.",
     "priority": 0,
     "img": "pexels-photo.jpeg",
-    "btn_prio_color": "bg-success"
+    "btn_prio_color": "bg-success",
+    "deadline": "4/10/2022"
    }, {
-    "task": "Task 7",
-    "description": "Description",
+    "task": "Maw the lawn",
+    "description": "Just maw the lawn.",
     "priority": 0,
     "img": "pexels-photo.jpeg",
-    "btn_prio_color": "bg-success"
+    "btn_prio_color": "bg-success",
+    "deadline": "6/10/2022"
    }, {
-    "task": "Task 8",
-    "description": "Description",
+    "task": "Babysitting",
+    "description": "Babysit for my sister",
     "priority": 0,
     "img": "pexels-photo.jpeg",
-    "btn_prio_color": "bg-success"
+    "btn_prio_color": "bg-success",
+    "deadline": "1/10/2022"
    }
 ]`;
