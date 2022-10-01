@@ -2,41 +2,49 @@ let tasksJSON = `[
     {"task": "Task 1",
     "description": "Description",
     "priority": 0,
-    "img": "pexels-photo.jpeg"
+    "img": "pexels-photo.jpeg",
+    "btn_prio_color": "bg-success"
    }, {
     "task": "Task 2",
     "description": "Description",
     "priority": 0,
-    "img": "pexels-photo.jpeg"
+    "img": "pexels-photo.jpeg",
+    "btn_prio_color": "bg-success"
    }, {
     "task": "Task 3",
     "description": "Description",
     "priority": 0,
-    "img": "pexels-photo.jpeg"
+    "img": "pexels-photo.jpeg",
+    "btn_prio_color": "bg-success"
    }, {
     "task": "Task 4",
     "description": "Description",
     "priority": 0,
-    "img": "pexels-photo.jpeg"
+    "img": "pexels-photo.jpeg",
+    "btn_prio_color": "bg-success"
    }, {
     "task": "Task 5",
     "description": "Description",
     "priority": 0,
-    "img": "pexels-photo.jpeg"
+    "img": "pexels-photo.jpeg",
+    "btn_prio_color": "bg-success"
    }, {
     "task": "Task 6",
     "description": "Description",
     "priority": 0,
-    "img": "pexels-photo.jpeg"
+    "img": "pexels-photo.jpeg",
+    "btn_prio_color": "bg-success"
    }, {
     "task": "Task 7",
     "description": "Description",
     "priority": 0,
-    "img": "pexels-photo.jpeg"
+    "img": "pexels-photo.jpeg",
+    "btn_prio_color": "bg-success"
    }, {
     "task": "Task 8",
     "description": "Description",
     "priority": 0,
-    "img": "pexels-photo.jpeg"
+    "img": "pexels-photo.jpeg",
+    "btn_prio_color": "bg-success"
    }
 ]`;

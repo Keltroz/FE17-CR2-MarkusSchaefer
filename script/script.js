@@ -44,12 +44,14 @@ function prio(i) {
 }
 
 // function for the on click event
+// adds +1 to priority and changes the color for the priority
 
 function addEvent() {
   let btn_prios = document.getElementsByClassName("btn_prio");
 
   for (let i = 0; i < btn_prios.length; i++) {
     btn_prios[i].addEventListener("click", function () {
+      if (tasks[i].priority >= 0) {tasks[i].btn_prio_color = "bg-success"};
       if (tasks[i].priority >= 1) {tasks[i].btn_prio_color = "bg-warning"};
       if (tasks[i].priority >= 3) {tasks[i].btn_prio_color = "bg-danger"};
       prio(i);
